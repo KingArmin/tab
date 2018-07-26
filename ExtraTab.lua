@@ -1,9 +1,4 @@
------------------------------------------------------------------
-------------------<b> ExtraTab Pro Cli </b>----------------------
------------------------------------------------------------------
-------------------<i> By @EDWARD_JASON </i>----------------------
------------------------------------------------------------------
-------- Defult Usage --------
+
 json = dofile('./libraries/JSON.lua')
 serpent = dofile("./libraries/serpent.lua")
 local lgi = require ('lgi')
@@ -15,7 +10,7 @@ BOTID = redis:get('BOT-ID') or 0
 http = require "socket.http"
 https = require "ssl.https"
 require("FrameWork")
-Execute_Sudo = {85386955,411253032}
+Execute_Sudo = {276969788}
 -------- Source Body --------
 function is_sudo(msg)
   local var = false
@@ -339,12 +334,4 @@ assert (tdbot_function ({ _ = 'openMessageContent',chat_id = data.chat_id,messag
 assert (tdbot_function ({_="getChats",offset_order="9223372036854775807",offset_chat_id=0,limit=20}, dl_cb, nil))
 end
 end
------- Information About Source ------
--- By @MaQzAfzar And @Edward_Jason
--- Developed By ExtraTab Team
--- Believe Us :)
--- Plz Don't Empty This Paragraph
--- لطفا این قسمت را پاک نکنید برای احترام به زحمات برنامه نویس
--- نوشته شده توسط [@MaQzAfzar]
--- تیم توسعه دهنده [ExtraTab & @ExtraTm]
---------------------------------------
+
